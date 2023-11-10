@@ -1,9 +1,9 @@
 import socket
 import concurrent.futures
 import subprocess
-import threading  # Import the threading module
+import threading
 
-# ANSI escape codes for colors
+
 YELLOW = "\033[38;2;255;241;0m"
 GREEN = "\033[38;2;0;255;0m"
 RESET = "\033[0m"
@@ -43,12 +43,12 @@ def validate_input():
     while True:
         target = input("Enter IP/Hostname to target: ")
         try:
-            # Check if the input is a valid IP address
+            
             socket.inet_aton(target)
             return target
         except socket.error:
             try:
-                # If not a valid IP, try resolving it to an IP address
+                
                 ip = socket.gethostbyname(target)
                 return ip
             except socket.error:
