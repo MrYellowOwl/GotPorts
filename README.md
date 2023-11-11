@@ -14,19 +14,19 @@ The Port Scanner Tool is a simple Python script that allows you to scan ports on
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/port-scanner-tool.git
+    git clone https://github.com/MrYellowOwl/GotPorts.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd port-scanner-tool
+    cd GotPorts
     ```
 
 3. Run the script:
 
     ```bash
-    python3 gotports.py
+    python3 GotPorts.py
     ```
 
 4. Follow the on-screen instructions to enter the target IP address or hostname.
