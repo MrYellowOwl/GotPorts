@@ -42,11 +42,7 @@ Feel free to customize the banner and ASCII art in the `print_banner()` function
 
 ## Acknowledgements
 
-- ASCII art by [Mr Yellow Owl](https://github.com/mryellowowl)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Built by [Mr Yellow Owl](https://github.com/mryellowowl)
 
 ## Issues and Contributions
 
