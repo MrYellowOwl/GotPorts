@@ -35,11 +35,7 @@ The Port Scanner Tool is a simple Python script that allows you to scan ports on
 
 - Python 3.x
 - Nmap (for service detection)
-
-## Customization
-
-Feel free to customize the banner and ASCII art in the `print_banner()` function in the `gotports.py` script.
-
+  
 ## Acknowledgements
 
 - Built by [Mr Yellow Owl](https://github.com/mryellowowl)
