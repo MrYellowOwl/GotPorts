@@ -69,7 +69,7 @@ def scan_port(ip, port, stop_event):
 def run_scanner(ip, stop_event):
     open_ports = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
-        future_to_port = {executor.submit(scan_port, ip, port, stop_event): port for port in range(1, 1025)}
+        future_to_port = {executor.submit(scan_port, ip, port, stop_event): port for port in range(1, 65535)}
         for future in concurrent.futures.as_completed(future_to_port):
             port = future_to_port[future]
             try:
